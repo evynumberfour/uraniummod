@@ -1,0 +1,36 @@
+#items
+item.uraniummod.rawuranium.name=Raw Uranium Ore
+item.uraniummod.rawuranium.desc=A chunk of unprocessed Uranium. Can be smelted into Uranium Oxide, or refined into yellowcake.
+item.uraniummod.yellowcake.name=Yellowcake
+item.uraniummod.yellowcake.desc=Uranium ore concentrate. Urani-YUM!
+item.uraniummod.uo2.name=Uranium Oxide
+item.uraniummod.uo2.desc=Small pellets of Uranium metal, mostly U-238.
+item.uraniummod.leu.name=Low Enriched Uranium
+item.uraniummod.leu.desc=Possesses a roughly 5% U-235 content.
+item.uraniummod.heu.name=High Enriched Uranium
+item.uraniummod.heu.desc=Ranges from 20% - 60% U-235 purity.
+item.uraniummod.wgu.name=Weapons Grade Uranium
+item.uraniummod.wgu.desc=Uranium with a U-235 content of greater than 90%. Congratulations, you're an international threat.
+item.uraniummod.fluorspar.name=Fluorspar Crystal
+item.uraniummod.fluorspar.desc=Fluorite mineral. Can be refined into a jar of Fluorine gas.
+item.uraniummod.sulphuricacid.name=Sulphuric Acid
+item.uraniummod.sulphuricacid.desc=A jar full of nasty chemicals, useful for refining raw resources.
+item.uraniummod.fluorine.name=Fluorine
+item.uraniummod.fluorine.desc=A jar full of Fluorine gas.
+
+
+#blocks
+tile.uraniummod.ore.uranium.sandstone.name=Carnotite
+tile.uraniummod.ore.uranium.sandstone.desc=Sandstone-based Uranium ore. A sickening yellow.
+tile.uraniummod.ore.uranium.granite.name=Pitchblende
+tile.uraniummod.ore.uranium.granite.desc=Dense, granite-based Uranium ore. It shines, darkly.
+tile.uraniummod.ore.fluorspar.limestone.name=Fluorspar
+tile.uraniummod.ore.fluorspar.limestone.desc=Fluorite crystals embedded in limestone. The impurities give it a bluish hue.
+tile.uraniummod.block.sulphur.name=Block of Sulphur
+tile.uraniummod.block.sulphur.desc=A solid block of sulphur. Somehow not explosive, yet.
+tile.uraniummod.glass.clear.name=Clear Glass
+tile.uraniummod.glass.clear.desc=Refined glass that is perfectly clear.
+tile.uraniummod.glass.impossible.name=Impossible glass
+tile.uraniummod.glass.impossible.desc=You shouldn't have this.
+tile.uraniummod.pillar.graphite.name=Graphite Control Rods
+tile.uraniummod.pillar.graphite.desc=Carbon-based, neutron-moderating, and slick as hell. I'm sure these bad boys have never had any involvement in nuclear disasters.
