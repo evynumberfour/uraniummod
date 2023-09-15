@@ -1,0 +1,18 @@
+#items
+item.uraniummod.uo2.name=Uranium Oxide
+item.uraniummod.uo2.desc=Small pellets of Uranium metal, mostly U-238.
+item.uraniummod.rawuranium.name=Raw Uranium Ore
+item.uraniummod.rawuranium.desc=A chunk of unprocessed Uranium. Can be smelted into Uranium Oxide, or refined into yellowcake.
+item.uraniummod.fluorspar.name=Fluorspar
+item.uraniummod.fluorspar.desc=Fluorite mineral. Can be refined into a jar of Fluorine gas.
+item.uraniummod.sulphuricacid.name=Bucket of Sulphuric Acid
+item.uraniummod.sulphuricacid.desc=A bucket full of nasty chemicals, useful for refining raw resources.
+item.uraniummod.fluorine.name=Fluorine
+item.uraniummod.fluorine.desc=A jar full of Fluorine gas.
+
+
+#blocks
+tile.uraniummod.ore.uranium.sandstone.name=Carnotite
+tile.uraniummod.ore.uranium.sandstone.desc=Sandstone-based Uranium ore.
+tile.uraniummod.ore.uranium.granite.name=Pitchblende
+tile.uraniummod.ore.uranium.granite.desc=Dense, granite-based Uranium ore.
