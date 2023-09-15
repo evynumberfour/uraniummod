@@ -1,5 +1,8 @@
 package fstrider.uraniummod.mixin.core.world.generate.chunk.perlin.overworld;
 
+import fstrider.uraniummod.block.UBlocks;
+import fstrider.uraniummod.worldgen.WorldFeatureCustomOre;
+import net.minecraft.core.block.Block;
 import net.minecraft.core.block.BlockSand;
 import net.minecraft.core.world.World;
 import net.minecraft.core.world.biome.Biome;
@@ -13,6 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.Random;
 
+@SuppressWarnings("ALL")
 @Mixin(value= ChunkDecoratorOverworld.class, remap = false)
 
 public abstract class ChunkDecoratorOverworldMixin {
@@ -38,5 +42,23 @@ public abstract class ChunkDecoratorOverworldMixin {
         rand.setSeed((long)chunkX * l1 + (long)chunkZ * l2 ^ this.world.getRandomSeed());
         int blockX, blockY, blockZ;
 
+        for (int i=0;(float)i<60.0f*oreHeightModifier;i++) {
+            blockX = x + rand.nextInt(16);
+            blockY = minY + rand.nextInt(rangeY);
+            blockZ = z + rand.nextInt(16);
+            new WorldFeatureCustomOre(UBlocks.carnotite.id, rand.nextInt(17)+8, false, Block.sandstone.id).generate(world, rand, blockX, blockY, blockZ);
+        }
+        for (int i=0;(float)i<20.0f*oreHeightModifier;i++) {
+            blockX = x + rand.nextInt(16);
+            blockY = minY + rand.nextInt(rangeY);
+            blockZ = z + rand.nextInt(16);
+            new WorldFeatureCustomOre(UBlocks.pitchblende.id, rand.nextInt(5)+7, false, Block.granite.id).generate(world, rand, blockX, blockY, blockZ);
+        }
+        for (int i=0;(float)i<40.0f*oreHeightModifier;i++) {
+            blockX = x + rand.nextInt(16);
+            blockY = minY + rand.nextInt(rangeY);
+            blockZ = z + rand.nextInt(16);
+            new WorldFeatureCustomOre(UBlocks.fluorspar.id, rand.nextInt(5)+4, false, Block.limestone.id).generate(world, rand, blockX, blockY, blockZ);
+        }
     }
 }
